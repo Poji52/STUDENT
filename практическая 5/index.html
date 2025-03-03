@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашнее задание - Стрелочные функции</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Задание 1</h1>
+        <!-- Проверка палиндрома -->
+        <div class="tasks">
+            <div class="palindrome">
+                <input type="text" id="surname" placeholder="Введите фамилию">
+                <button onclick="checkPalindrome()">Проверить палиндром</button>
+                <p id="palindromeResult"></p>
+            </div>
+        <h1>Задание 2</h1>
+            <!-- Обработка массива -->
+            <div class="array-operations">
+                <input type="text" id="arrayInput" placeholder="Введите числа через запятую">
+                <button onclick="processArray()">Обработать массив</button>
+                <p id="arrayResults"></p>
+            </div>
+        <h1>Задание 3</h1>
+            <!-- Дней до Нового года -->
+            <div class="new-year">
+                <button onclick="showDaysUntilNewYear()">Дней до Нового года</button>
+                <p id="newYearResult"></p>
+            </div>
+        <h1>Задание</h1>
+            <!-- Фильтр email -->
+            <div class="email-filter">
+                <input type="text" id="emailFilter" placeholder="Фильтр email" onkeyup="filterEmails()">
+                <div id="emailList"></div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

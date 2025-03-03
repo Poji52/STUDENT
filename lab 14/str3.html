@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты - Путешествия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Контакты</h1>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="str1.html" class="nav__link">Главная</a></li>
+            <li class="nav__item"><a href="str2.html" class="nav__link">Направления</a></li>
+            <li class="nav__item"><a href="str3.html" class="nav__link">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <aside class="sidebar sidebar--left">
+            <h3 class="sidebar__title">Режим работы</h3>
+            <ul class="sidebar__list">
+                <li class="sidebar__item">Пн-Пт: 9:00-18:00</li>
+                <li class="sidebar__item">Сб: 10:00-16:00</li>
+                <li class="sidebar__item">Вс: выходной</li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <h2 class="content__title">Свяжитесь с нами</h2>
+            <p class="content__text">Остались вопросы? Заполните форму ниже, и наши специалисты свяжутся с вами в ближайшее время.</p>
+            
+            <form class="contact-form">
+                <div class="contact-form__group">
+                    <label class="contact-form__label">Имя:</label>
+                    <input type="text" class="contact-form__input" required>
+                </div>
+                <div class="contact-form__group">
+                    <label class="contact-form__label">Email:</label>
+                    <input type="email" class="contact-form__input" required>
+                </div>
+                <div class="contact-form__group">
+                    <label class="contact-form__label">Телефон:</label>
+                    <input type="tel" class="contact-form__input">
+                </div>
+                <div class="contact-form__group">
+                    <label class="contact-form__label">Сообщение:</label>
+                    <textarea class="contact-form__textarea" rows="5"></textarea>
+                </div>
+                <button type="submit" class="contact-form__button">Отправить</button>
+            </form>
+            
+            <div class="content__map" style="margin-top: 30px;">
+                <h3>Наш офис на карте:</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <aside class="sidebar sidebar--right">
+            <h3 class="sidebar__title">Контакты</h3>
+            <div class="sidebar__contacts">
+                <p>Тел: +7 (999) 123-45-67</p>
+                <p>Email: info@travel.ru</p>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2024 Путешествия по миру</p>
+    </footer>
+</body>
+</html>

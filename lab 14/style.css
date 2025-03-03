@@ -1,0 +1,164 @@
+
+.page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Блок header */
+.header {
+    background-color: #2c3e50;
+    padding: 20px;
+    color: white;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Блок navigation */
+.nav {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav__item {
+    padding: 5px;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #3498db;
+}
+
+/* Блок main */
+.main {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    gap: 20px;
+    padding: 20px;
+    height: 100%;
+}
+.main1{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    gap: 20px;
+    padding: 20px;
+    height: 1000px;
+}
+
+/* Блок sidebar */
+.sidebar {
+    background-color: #ecf0f1;
+    padding: 15px;
+}
+
+.sidebar--left {
+    grid-column: 1;
+}
+
+.sidebar--right {
+    grid-column: 3;
+}
+
+/* Блок content */
+.content {
+    grid-column: 2;
+}
+
+/* Блок footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Блок destination */
+.destination {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.destination__title {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.destination__description {
+    color: #7f8c8d;
+}
+
+.destination__image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Блок contact-form */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form__group {
+    margin-bottom: 15px;
+}
+
+.contact-form__label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.contact-form__button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form__button:hover {
+    background-color: #2980b9;
+}
+
+/* Блок content */
+.content__text {
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+.content__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px 0;
+}

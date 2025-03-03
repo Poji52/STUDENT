@@ -1,0 +1,10 @@
+
+
+#emailList {
+    margin-top: 10px;
+}
+
+.email-item {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
